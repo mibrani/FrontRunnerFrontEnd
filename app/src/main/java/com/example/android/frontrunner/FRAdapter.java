@@ -103,7 +103,7 @@ public class FRAdapter extends CursorAdapter {
         nick.setText(nickText);
 
 
-        //Set the checkbox
+        //Set the checkboxx
         CheckBox checkBox = (CheckBox) view.findViewById(R.id.friend_list_checkbutton);
         if (userID == MainActivity.appUser.getId()) {
             checkBox.setChecked(true);
