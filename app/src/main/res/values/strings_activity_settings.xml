@@ -1,0 +1,16 @@
+<resources>
+        <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+<string name="pref_key_username">Username</string>
+    <string name="pref_title_username">UserName</string>
+    <string name="pref_default_username"></string>
+
+    <string name="pref_title_password">UserName</string>
+    <string name="pref_default_password">password</string>
+    <string name="pref_key_password">password</string>
+
+</resources>
