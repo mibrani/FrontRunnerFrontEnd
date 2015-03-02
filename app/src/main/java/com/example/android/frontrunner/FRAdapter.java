@@ -94,7 +94,7 @@ public class FRAdapter extends CursorAdapter {
                     ) status.setText(DBRelated.participantStatusCodeToText(Common.participantsReady.get(userID)));
             else status.setText("");
 
-        //Set the nickname
+        //Set the nickname a
         String nickText = "";
         TextView nick = (TextView) view.findViewById(R.id.friend_list_listview_nickname);
         if (userID == MainActivity.appUser.getId()) nickText = "Myself";
